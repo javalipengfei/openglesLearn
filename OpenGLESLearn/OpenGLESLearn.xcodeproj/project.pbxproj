@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92DC8619277AB683003529D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8618277AB683003529D6 /* AppDelegate.swift */; };
+		92DC861B277AB683003529D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC861A277AB683003529D6 /* SceneDelegate.swift */; };
+		92DC861D277AB683003529D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC861C277AB683003529D6 /* ViewController.swift */; };
+		92DC8622277AB686003529D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8621277AB686003529D6 /* Assets.xcassets */; };
+		92DC8625277AB686003529D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8623277AB686003529D6 /* LaunchScreen.storyboard */; };
+		92DC8630277AB686003529D6 /* OpenGLESLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC862F277AB686003529D6 /* OpenGLESLearnTests.swift */; };
+		92DC863A277AB686003529D6 /* OpenGLESLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8639277AB686003529D6 /* OpenGLESLearnUITests.swift */; };
+		92DC863C277AB686003529D6 /* OpenGLESLearnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC863B277AB686003529D6 /* OpenGLESLearnUITestsLaunchTests.swift */; };
+		92DC864E277AB72C003529D6 /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 92DC864B277AB72C003529D6 /* GLESMath.c */; };
+		92DC8650277AB741003529D6 /* GLESTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC864F277AB741003529D6 /* GLESTool.swift */; };
+		92DC865C277AB78F003529D6 /* Draw2DCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8653277AB78F003529D6 /* Draw2DCell.swift */; };
+		92DC865D277AB78F003529D6 /* Draw2DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8654277AB78F003529D6 /* Draw2DView.swift */; };
+		92DC865E277AB78F003529D6 /* Draw2DVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8655277AB78F003529D6 /* Draw2DVC.swift */; };
+		92DC8661277AB78F003529D6 /* shaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8659277AB78F003529D6 /* shaderf.fsh */; };
+		92DC8662277AB78F003529D6 /* pointShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC865A277AB78F003529D6 /* pointShader.vsh */; };
+		92DC8663277AB78F003529D6 /* shaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC865B277AB78F003529D6 /* shaderv.vsh */; };
+		92DC8669277AB7FD003529D6 /* 3dShaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8665277AB7FD003529D6 /* 3dShaderf.fsh */; };
+		92DC866A277AB7FD003529D6 /* Draw3DVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8666277AB7FD003529D6 /* Draw3DVC.swift */; };
+		92DC866B277AB7FD003529D6 /* Draw3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8667277AB7FD003529D6 /* Draw3DView.swift */; };
+		92DC866C277AB7FD003529D6 /* 3dShaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8668277AB7FD003529D6 /* 3dShaderv.vsh */; };
+		92DC8689277AB80A003529D6 /* LutFilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC866E277AB809003529D6 /* LutFilterVC.swift */; };
+		92DC868A277AB80A003529D6 /* lookup.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DC866F277AB809003529D6 /* lookup.png */; };
+		92DC868B277AB80A003529D6 /* lutFilterfsh.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8670277AB809003529D6 /* lutFilterfsh.fsh */; };
+		92DC868C277AB80A003529D6 /* lutFiltervsh.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8671277AB809003529D6 /* lutFiltervsh.vsh */; };
+		92DC868D277AB80A003529D6 /* LutFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8672277AB809003529D6 /* LutFilterView.swift */; };
+		92DC868E277AB80A003529D6 /* yuantu.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8673277AB809003529D6 /* yuantu.png */; };
+		92DC868F277AB80A003529D6 /* LightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8675277AB809003529D6 /* LightVC.swift */; };
+		92DC8690277AB80A003529D6 /* lightShaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8676277AB809003529D6 /* lightShaderv.vsh */; };
+		92DC8691277AB80A003529D6 /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8677277AB809003529D6 /* LightView.swift */; };
+		92DC8692277AB80A003529D6 /* lightShaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8678277AB809003529D6 /* lightShaderf.fsh */; };
+		92DC8693277AB80A003529D6 /* texturevsh.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC867A277AB80A003529D6 /* texturevsh.vsh */; };
+		92DC8694277AB80A003529D6 /* TextureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC867B277AB80A003529D6 /* TextureVC.swift */; };
+		92DC8697277AB80A003529D6 /* texturefsh.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC867E277AB80A003529D6 /* texturefsh.fsh */; };
+		92DC8698277AB80A003529D6 /* TextureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC867F277AB80A003529D6 /* TextureView.swift */; };
+		92DC8699277AB80A003529D6 /* TextureDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8680277AB80A003529D6 /* TextureDemoView.swift */; };
+		92DC869C277AB80A003529D6 /* 3dTextureShaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8685277AB80A003529D6 /* 3dTextureShaderf.fsh */; };
+		92DC869D277AB80A003529D6 /* DrawTexture3DVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8686277AB80A003529D6 /* DrawTexture3DVC.swift */; };
+		92DC869E277AB80A003529D6 /* Draw3DTextureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8687277AB80A003529D6 /* Draw3DTextureView.swift */; };
+		92DC869F277AB80A003529D6 /* 3dTextureShaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8688277AB80A003529D6 /* 3dTextureShaderv.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92DC862C277AB686003529D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DC860D277AB683003529D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DC8614277AB683003529D6;
+			remoteInfo = OpenGLESLearn;
+		};
+		92DC8636277AB686003529D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DC860D277AB683003529D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DC8614277AB683003529D6;
+			remoteInfo = OpenGLESLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92DC8615277AB683003529D6 /* OpenGLESLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLESLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DC8618277AB683003529D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92DC861A277AB683003529D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92DC861C277AB683003529D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92DC8621277AB686003529D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92DC8624277AB686003529D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92DC8626277AB686003529D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DC862B277AB686003529D6 /* OpenGLESLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLESLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DC862F277AB686003529D6 /* OpenGLESLearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGLESLearnTests.swift; sourceTree = "<group>"; };
+		92DC8635277AB686003529D6 /* OpenGLESLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLESLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DC8639277AB686003529D6 /* OpenGLESLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGLESLearnUITests.swift; sourceTree = "<group>"; };
+		92DC863B277AB686003529D6 /* OpenGLESLearnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGLESLearnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92DC864B277AB72C003529D6 /* GLESMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLESMath.c; sourceTree = "<group>"; };
+		92DC864D277AB72C003529D6 /* GLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESMath.h; sourceTree = "<group>"; };
+		92DC864F277AB741003529D6 /* GLESTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLESTool.swift; sourceTree = "<group>"; };
+		92DC8653277AB78F003529D6 /* Draw2DCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Draw2DCell.swift; sourceTree = "<group>"; };
+		92DC8654277AB78F003529D6 /* Draw2DView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Draw2DView.swift; sourceTree = "<group>"; };
+		92DC8655277AB78F003529D6 /* Draw2DVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Draw2DVC.swift; sourceTree = "<group>"; };
+		92DC8659277AB78F003529D6 /* shaderf.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shaderf.fsh; sourceTree = "<group>"; };
+		92DC865A277AB78F003529D6 /* pointShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = pointShader.vsh; sourceTree = "<group>"; };
+		92DC865B277AB78F003529D6 /* shaderv.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shaderv.vsh; sourceTree = "<group>"; };
+		92DC8665277AB7FD003529D6 /* 3dShaderf.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = 3dShaderf.fsh; sourceTree = "<group>"; };
+		92DC8666277AB7FD003529D6 /* Draw3DVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Draw3DVC.swift; sourceTree = "<group>"; };
+		92DC8667277AB7FD003529D6 /* Draw3DView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Draw3DView.swift; sourceTree = "<group>"; };
+		92DC8668277AB7FD003529D6 /* 3dShaderv.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = 3dShaderv.vsh; sourceTree = "<group>"; };
+		92DC866E277AB809003529D6 /* LutFilterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LutFilterVC.swift; sourceTree = "<group>"; };
+		92DC866F277AB809003529D6 /* lookup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup.png; sourceTree = "<group>"; };
+		92DC8670277AB809003529D6 /* lutFilterfsh.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = lutFilterfsh.fsh; sourceTree = "<group>"; };
+		92DC8671277AB809003529D6 /* lutFiltervsh.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = lutFiltervsh.vsh; sourceTree = "<group>"; };
+		92DC8672277AB809003529D6 /* LutFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LutFilterView.swift; sourceTree = "<group>"; };
+		92DC8673277AB809003529D6 /* yuantu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuantu.png; sourceTree = "<group>"; };
+		92DC8675277AB809003529D6 /* LightVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightVC.swift; sourceTree = "<group>"; };
+		92DC8676277AB809003529D6 /* lightShaderv.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = lightShaderv.vsh; sourceTree = "<group>"; };
+		92DC8677277AB809003529D6 /* LightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
+		92DC8678277AB809003529D6 /* lightShaderf.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = lightShaderf.fsh; sourceTree = "<group>"; };
+		92DC867A277AB80A003529D6 /* texturevsh.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = texturevsh.vsh; sourceTree = "<group>"; };
+		92DC867B277AB80A003529D6 /* TextureVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureVC.swift; sourceTree = "<group>"; };
+		92DC867E277AB80A003529D6 /* texturefsh.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = texturefsh.fsh; sourceTree = "<group>"; };
+		92DC867F277AB80A003529D6 /* TextureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureView.swift; sourceTree = "<group>"; };
+		92DC8680277AB80A003529D6 /* TextureDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureDemoView.swift; sourceTree = "<group>"; };
+		92DC8685277AB80A003529D6 /* 3dTextureShaderf.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = 3dTextureShaderf.fsh; sourceTree = "<group>"; };
+		92DC8686277AB80A003529D6 /* DrawTexture3DVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawTexture3DVC.swift; sourceTree = "<group>"; };
+		92DC8687277AB80A003529D6 /* Draw3DTextureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Draw3DTextureView.swift; sourceTree = "<group>"; };
+		92DC8688277AB80A003529D6 /* 3dTextureShaderv.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = 3dTextureShaderv.vsh; sourceTree = "<group>"; };
+		92DC86A5277ABA62003529D6 /* OpenglESLearn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenglESLearn-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92DC8612277AB683003529D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DC8628277AB686003529D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DC8632277AB686003529D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92DC860C277AB683003529D6 = {
+			isa = PBXGroup;
+			children = (
+				92DC8617277AB683003529D6 /* OpenGLESLearn */,
+				92DC862E277AB686003529D6 /* OpenGLESLearnTests */,
+				92DC8638277AB686003529D6 /* OpenGLESLearnUITests */,
+				92DC8616277AB683003529D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92DC8616277AB683003529D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DC8615277AB683003529D6 /* OpenGLESLearn.app */,
+				92DC862B277AB686003529D6 /* OpenGLESLearnTests.xctest */,
+				92DC8635277AB686003529D6 /* OpenGLESLearnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DC8617277AB683003529D6 /* OpenGLESLearn */ = {
+			isa = PBXGroup;
+			children = (
+				92DC8651277AB779003529D6 /* VC */,
+				92DC864A277AB72C003529D6 /* util */,
+				92DC8618277AB683003529D6 /* AppDelegate.swift */,
+				92DC861A277AB683003529D6 /* SceneDelegate.swift */,
+				92DC861C277AB683003529D6 /* ViewController.swift */,
+				92DC8621277AB686003529D6 /* Assets.xcassets */,
+				92DC8623277AB686003529D6 /* LaunchScreen.storyboard */,
+				92DC8626277AB686003529D6 /* Info.plist */,
+			);
+			path = OpenGLESLearn;
+			sourceTree = "<group>";
+		};
+		92DC862E277AB686003529D6 /* OpenGLESLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				92DC862F277AB686003529D6 /* OpenGLESLearnTests.swift */,
+			);
+			path = OpenGLESLearnTests;
+			sourceTree = "<group>";
+		};
+		92DC8638277AB686003529D6 /* OpenGLESLearnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92DC8639277AB686003529D6 /* OpenGLESLearnUITests.swift */,
+				92DC863B277AB686003529D6 /* OpenGLESLearnUITestsLaunchTests.swift */,
+			);
+			path = OpenGLESLearnUITests;
+			sourceTree = "<group>";
+		};
+		92DC864A277AB72C003529D6 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				92DC864F277AB741003529D6 /* GLESTool.swift */,
+				92DC864B277AB72C003529D6 /* GLESMath.c */,
+				92DC864D277AB72C003529D6 /* GLESMath.h */,
+				92DC86A5277ABA62003529D6 /* OpenglESLearn-Bridging-Header.h */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		92DC8651277AB779003529D6 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				92DC866D277AB809003529D6 /* filter */,
+				92DC8674277AB809003529D6 /* light */,
+				92DC8679277AB80A003529D6 /* texture */,
+				92DC8684277AB80A003529D6 /* Texture3D */,
+				92DC8664277AB7FD003529D6 /* 3D */,
+				92DC8652277AB78F003529D6 /* 2D */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		92DC8652277AB78F003529D6 /* 2D */ = {
+			isa = PBXGroup;
+			children = (
+				92DC8653277AB78F003529D6 /* Draw2DCell.swift */,
+				92DC8654277AB78F003529D6 /* Draw2DView.swift */,
+				92DC8655277AB78F003529D6 /* Draw2DVC.swift */,
+				92DC8658277AB78F003529D6 /* shader */,
+			);
+			path = 2D;
+			sourceTree = "<group>";
+		};
+		92DC8658277AB78F003529D6 /* shader */ = {
+			isa = PBXGroup;
+			children = (
+				92DC8659277AB78F003529D6 /* shaderf.fsh */,
+				92DC865A277AB78F003529D6 /* pointShader.vsh */,
+				92DC865B277AB78F003529D6 /* shaderv.vsh */,
+			);
+			path = shader;
+			sourceTree = "<group>";
+		};
+		92DC8664277AB7FD003529D6 /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+				92DC8665277AB7FD003529D6 /* 3dShaderf.fsh */,
+				92DC8666277AB7FD003529D6 /* Draw3DVC.swift */,
+				92DC8667277AB7FD003529D6 /* Draw3DView.swift */,
+				92DC8668277AB7FD003529D6 /* 3dShaderv.vsh */,
+			);
+			path = 3D;
+			sourceTree = "<group>";
+		};
+		92DC866D277AB809003529D6 /* filter */ = {
+			isa = PBXGroup;
+			children = (
+				92DC866E277AB809003529D6 /* LutFilterVC.swift */,
+				92DC866F277AB809003529D6 /* lookup.png */,
+				92DC8670277AB809003529D6 /* lutFilterfsh.fsh */,
+				92DC8671277AB809003529D6 /* lutFiltervsh.vsh */,
+				92DC8672277AB809003529D6 /* LutFilterView.swift */,
+				92DC8673277AB809003529D6 /* yuantu.png */,
+			);
+			path = filter;
+			sourceTree = "<group>";
+		};
+		92DC8674277AB809003529D6 /* light */ = {
+			isa = PBXGroup;
+			children = (
+				92DC8675277AB809003529D6 /* LightVC.swift */,
+				92DC8676277AB809003529D6 /* lightShaderv.vsh */,
+				92DC8677277AB809003529D6 /* LightView.swift */,
+				92DC8678277AB809003529D6 /* lightShaderf.fsh */,
+			);
+			path = light;
+			sourceTree = "<group>";
+		};
+		92DC8679277AB80A003529D6 /* texture */ = {
+			isa = PBXGroup;
+			children = (
+				92DC867A277AB80A003529D6 /* texturevsh.vsh */,
+				92DC867B277AB80A003529D6 /* TextureVC.swift */,
+				92DC867E277AB80A003529D6 /* texturefsh.fsh */,
+				92DC867F277AB80A003529D6 /* TextureView.swift */,
+				92DC8680277AB80A003529D6 /* TextureDemoView.swift */,
+			);
+			path = texture;
+			sourceTree = "<group>";
+		};
+		92DC8684277AB80A003529D6 /* Texture3D */ = {
+			isa = PBXGroup;
+			children = (
+				92DC8685277AB80A003529D6 /* 3dTextureShaderf.fsh */,
+				92DC8686277AB80A003529D6 /* DrawTexture3DVC.swift */,
+				92DC8687277AB80A003529D6 /* Draw3DTextureView.swift */,
+				92DC8688277AB80A003529D6 /* 3dTextureShaderv.vsh */,
+			);
+			path = Texture3D;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92DC8614277AB683003529D6 /* OpenGLESLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DC863F277AB686003529D6 /* Build configuration list for PBXNativeTarget "OpenGLESLearn" */;
+			buildPhases = (
+				92DC8611277AB683003529D6 /* Sources */,
+				92DC8612277AB683003529D6 /* Frameworks */,
+				92DC8613277AB683003529D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLESLearn;
+			productName = OpenGLESLearn;
+			productReference = 92DC8615277AB683003529D6 /* OpenGLESLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92DC862A277AB686003529D6 /* OpenGLESLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DC8642277AB686003529D6 /* Build configuration list for PBXNativeTarget "OpenGLESLearnTests" */;
+			buildPhases = (
+				92DC8627277AB686003529D6 /* Sources */,
+				92DC8628277AB686003529D6 /* Frameworks */,
+				92DC8629277AB686003529D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DC862D277AB686003529D6 /* PBXTargetDependency */,
+			);
+			name = OpenGLESLearnTests;
+			productName = OpenGLESLearnTests;
+			productReference = 92DC862B277AB686003529D6 /* OpenGLESLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92DC8634277AB686003529D6 /* OpenGLESLearnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DC8645277AB686003529D6 /* Build configuration list for PBXNativeTarget "OpenGLESLearnUITests" */;
+			buildPhases = (
+				92DC8631277AB686003529D6 /* Sources */,
+				92DC8632277AB686003529D6 /* Frameworks */,
+				92DC8633277AB686003529D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DC8637277AB686003529D6 /* PBXTargetDependency */,
+			);
+			name = OpenGLESLearnUITests;
+			productName = OpenGLESLearnUITests;
+			productReference = 92DC8635277AB686003529D6 /* OpenGLESLearnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92DC860D277AB683003529D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					92DC8614277AB683003529D6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					92DC862A277AB686003529D6 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 92DC8614277AB683003529D6;
+					};
+					92DC8634277AB686003529D6 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 92DC8614277AB683003529D6;
+					};
+				};
+			};
+			buildConfigurationList = 92DC8610277AB683003529D6 /* Build configuration list for PBXProject "OpenGLESLearn" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92DC860C277AB683003529D6;
+			productRefGroup = 92DC8616277AB683003529D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92DC8614277AB683003529D6 /* OpenGLESLearn */,
+				92DC862A277AB686003529D6 /* OpenGLESLearnTests */,
+				92DC8634277AB686003529D6 /* OpenGLESLearnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92DC8613277AB683003529D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DC866C277AB7FD003529D6 /* 3dShaderv.vsh in Resources */,
+				92DC8625277AB686003529D6 /* LaunchScreen.storyboard in Resources */,
+				92DC8622277AB686003529D6 /* Assets.xcassets in Resources */,
+				92DC869F277AB80A003529D6 /* 3dTextureShaderv.vsh in Resources */,
+				92DC8663277AB78F003529D6 /* shaderv.vsh in Resources */,
+				92DC8662277AB78F003529D6 /* pointShader.vsh in Resources */,
+				92DC8690277AB80A003529D6 /* lightShaderv.vsh in Resources */,
+				92DC868C277AB80A003529D6 /* lutFiltervsh.vsh in Resources */,
+				92DC8692277AB80A003529D6 /* lightShaderf.fsh in Resources */,
+				92DC8697277AB80A003529D6 /* texturefsh.fsh in Resources */,
+				92DC868A277AB80A003529D6 /* lookup.png in Resources */,
+				92DC868B277AB80A003529D6 /* lutFilterfsh.fsh in Resources */,
+				92DC8693277AB80A003529D6 /* texturevsh.vsh in Resources */,
+				92DC8669277AB7FD003529D6 /* 3dShaderf.fsh in Resources */,
+				92DC8661277AB78F003529D6 /* shaderf.fsh in Resources */,
+				92DC869C277AB80A003529D6 /* 3dTextureShaderf.fsh in Resources */,
+				92DC868E277AB80A003529D6 /* yuantu.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DC8629277AB686003529D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DC8633277AB686003529D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92DC8611277AB683003529D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DC864E277AB72C003529D6 /* GLESMath.c in Sources */,
+				92DC861D277AB683003529D6 /* ViewController.swift in Sources */,
+				92DC866A277AB7FD003529D6 /* Draw3DVC.swift in Sources */,
+				92DC8650277AB741003529D6 /* GLESTool.swift in Sources */,
+				92DC8699277AB80A003529D6 /* TextureDemoView.swift in Sources */,
+				92DC865C277AB78F003529D6 /* Draw2DCell.swift in Sources */,
+				92DC8691277AB80A003529D6 /* LightView.swift in Sources */,
+				92DC8619277AB683003529D6 /* AppDelegate.swift in Sources */,
+				92DC865D277AB78F003529D6 /* Draw2DView.swift in Sources */,
+				92DC869E277AB80A003529D6 /* Draw3DTextureView.swift in Sources */,
+				92DC8698277AB80A003529D6 /* TextureView.swift in Sources */,
+				92DC866B277AB7FD003529D6 /* Draw3DView.swift in Sources */,
+				92DC8694277AB80A003529D6 /* TextureVC.swift in Sources */,
+				92DC868D277AB80A003529D6 /* LutFilterView.swift in Sources */,
+				92DC865E277AB78F003529D6 /* Draw2DVC.swift in Sources */,
+				92DC8689277AB80A003529D6 /* LutFilterVC.swift in Sources */,
+				92DC868F277AB80A003529D6 /* LightVC.swift in Sources */,
+				92DC861B277AB683003529D6 /* SceneDelegate.swift in Sources */,
+				92DC869D277AB80A003529D6 /* DrawTexture3DVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DC8627277AB686003529D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DC8630277AB686003529D6 /* OpenGLESLearnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DC8631277AB686003529D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DC863C277AB686003529D6 /* OpenGLESLearnUITestsLaunchTests.swift in Sources */,
+				92DC863A277AB686003529D6 /* OpenGLESLearnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92DC862D277AB686003529D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DC8614277AB683003529D6 /* OpenGLESLearn */;
+			targetProxy = 92DC862C277AB686003529D6 /* PBXContainerItemProxy */;
+		};
+		92DC8637277AB686003529D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DC8614277AB683003529D6 /* OpenGLESLearn */;
+			targetProxy = 92DC8636277AB686003529D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92DC8623277AB686003529D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DC8624277AB686003529D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92DC863D277AB686003529D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92DC863E277AB686003529D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92DC8640277AB686003529D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2N5YPZR36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenGLESLearn/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.demo.OpenGLESLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenGLESLearn/util/OpenglESLearn-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92DC8641277AB686003529D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2N5YPZR36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenGLESLearn/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.demo.OpenGLESLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenGLESLearn/util/OpenglESLearn-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92DC8643277AB686003529D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2N5YPZR36;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.demo.OpenGLESLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLESLearn.app/OpenGLESLearn";
+			};
+			name = Debug;
+		};
+		92DC8644277AB686003529D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2N5YPZR36;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.demo.OpenGLESLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLESLearn.app/OpenGLESLearn";
+			};
+			name = Release;
+		};
+		92DC8646277AB686003529D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2N5YPZR36;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.demo.OpenGLESLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenGLESLearn;
+			};
+			name = Debug;
+		};
+		92DC8647277AB686003529D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2N5YPZR36;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.demo.OpenGLESLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenGLESLearn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92DC8610277AB683003529D6 /* Build configuration list for PBXProject "OpenGLESLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DC863D277AB686003529D6 /* Debug */,
+				92DC863E277AB686003529D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DC863F277AB686003529D6 /* Build configuration list for PBXNativeTarget "OpenGLESLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DC8640277AB686003529D6 /* Debug */,
+				92DC8641277AB686003529D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DC8642277AB686003529D6 /* Build configuration list for PBXNativeTarget "OpenGLESLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DC8643277AB686003529D6 /* Debug */,
+				92DC8644277AB686003529D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DC8645277AB686003529D6 /* Build configuration list for PBXNativeTarget "OpenGLESLearnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DC8646277AB686003529D6 /* Debug */,
+				92DC8647277AB686003529D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92DC860D277AB683003529D6 /* Project object */;
+}
