@@ -32,7 +32,7 @@ class ViewController: UIViewController {
             PageModel.init(name: "加载3D纹理贴图", page: "DrawTexture3DVC"),
             PageModel.init(name: "来一个光照吧", page: "LightVC"),
             PageModel.init(name: "做一个lut滤镜吧", page: "LutFilterVC"),
-            PageModel.init(name: "测试", page: "TestVC"),
+            PageModel.init(name: "做一个特效吧", page: "EffectVC"),
             
         ]
         self.tableView.reloadData()

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920FEFF627983FFB000F6CE0 /* scale.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FEFF3279833D1000F6CE0 /* scale.vsh */; };
+		920FEFF727983FFE000F6CE0 /* scale.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FEFF4279833ED000F6CE0 /* scale.fsh */; };
+		920FEFFB279A96B6000F6CE0 /* soulOut.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FEFF9279A9251000F6CE0 /* soulOut.vsh */; };
+		920FEFFC279A96B9000F6CE0 /* soulOut.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FEFFA279A925F000F6CE0 /* soulOut.fsh */; };
+		920FEFFF279A985D000F6CE0 /* shake.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FEFFE279A985D000F6CE0 /* shake.vsh */; };
+		920FF066279A9CC6000F6CE0 /* shake.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FF000279A9868000F6CE0 /* shake.fsh */; };
+		920FF06E279AA0A6000F6CE0 /* white.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FF06C279A9EE2000F6CE0 /* white.vsh */; };
+		920FF06F279AA0A8000F6CE0 /* white.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FF06D279A9EED000F6CE0 /* white.fsh */; };
+		920FF0D7279AAE4B000F6CE0 /* nightZone.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FF0D6279AAE4B000F6CE0 /* nightZone.vsh */; };
+		920FF0D9279AB03C000F6CE0 /* nightZone.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FF0D8279AAE5B000F6CE0 /* nightZone.fsh */; };
 		92DC8619277AB683003529D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8618277AB683003529D6 /* AppDelegate.swift */; };
 		92DC861B277AB683003529D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC861A277AB683003529D6 /* SceneDelegate.swift */; };
 		92DC861D277AB683003529D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC861C277AB683003529D6 /* ViewController.swift */; };
@@ -46,6 +56,8 @@
 		92DC869D277AB80A003529D6 /* DrawTexture3DVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8686277AB80A003529D6 /* DrawTexture3DVC.swift */; };
 		92DC869E277AB80A003529D6 /* Draw3DTextureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8687277AB80A003529D6 /* Draw3DTextureView.swift */; };
 		92DC869F277AB80A003529D6 /* 3dTextureShaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 92DC8688277AB80A003529D6 /* 3dTextureShaderv.vsh */; };
+		92DC889F277C4BAE003529D6 /* EffectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC889E277C4BAE003529D6 /* EffectVC.swift */; };
+		92DC88A1277C4BC2003529D6 /* EffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC88A0277C4BC2003529D6 /* EffectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +78,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		920FEFF3279833D1000F6CE0 /* scale.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = scale.vsh; sourceTree = "<group>"; };
+		920FEFF4279833ED000F6CE0 /* scale.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = scale.fsh; sourceTree = "<group>"; };
+		920FEFF9279A9251000F6CE0 /* soulOut.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = soulOut.vsh; sourceTree = "<group>"; };
+		920FEFFA279A925F000F6CE0 /* soulOut.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = soulOut.fsh; sourceTree = "<group>"; };
+		920FEFFE279A985D000F6CE0 /* shake.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shake.vsh; sourceTree = "<group>"; };
+		920FF000279A9868000F6CE0 /* shake.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shake.fsh; sourceTree = "<group>"; };
+		920FF06C279A9EE2000F6CE0 /* white.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = white.vsh; sourceTree = "<group>"; };
+		920FF06D279A9EED000F6CE0 /* white.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = white.fsh; sourceTree = "<group>"; };
+		920FF0D6279AAE4B000F6CE0 /* nightZone.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = nightZone.vsh; sourceTree = "<group>"; };
+		920FF0D8279AAE5B000F6CE0 /* nightZone.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = nightZone.fsh; sourceTree = "<group>"; };
 		92DC8615277AB683003529D6 /* OpenGLESLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLESLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DC8618277AB683003529D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92DC861A277AB683003529D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +133,8 @@
 		92DC8687277AB80A003529D6 /* Draw3DTextureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Draw3DTextureView.swift; sourceTree = "<group>"; };
 		92DC8688277AB80A003529D6 /* 3dTextureShaderv.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = 3dTextureShaderv.vsh; sourceTree = "<group>"; };
 		92DC86A5277ABA62003529D6 /* OpenglESLearn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenglESLearn-Bridging-Header.h"; sourceTree = "<group>"; };
+		92DC889E277C4BAE003529D6 /* EffectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectVC.swift; sourceTree = "<group>"; };
+		92DC88A0277C4BC2003529D6 /* EffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +162,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		920FEFF227983384000F6CE0 /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				920FEFF3279833D1000F6CE0 /* scale.vsh */,
+				920FEFF4279833ED000F6CE0 /* scale.fsh */,
+			);
+			path = Scale;
+			sourceTree = "<group>";
+		};
+		920FEFF8279A9235000F6CE0 /* soulOut */ = {
+			isa = PBXGroup;
+			children = (
+				920FEFF9279A9251000F6CE0 /* soulOut.vsh */,
+				920FEFFA279A925F000F6CE0 /* soulOut.fsh */,
+			);
+			path = soulOut;
+			sourceTree = "<group>";
+		};
+		920FEFFD279A984A000F6CE0 /* shake */ = {
+			isa = PBXGroup;
+			children = (
+				920FEFFE279A985D000F6CE0 /* shake.vsh */,
+				920FF000279A9868000F6CE0 /* shake.fsh */,
+			);
+			path = shake;
+			sourceTree = "<group>";
+		};
+		920FF067279A9E9A000F6CE0 /* white */ = {
+			isa = PBXGroup;
+			children = (
+				920FF06C279A9EE2000F6CE0 /* white.vsh */,
+				920FF06D279A9EED000F6CE0 /* white.fsh */,
+			);
+			path = white;
+			sourceTree = "<group>";
+		};
+		920FF0D5279AAD6D000F6CE0 /* nightZone */ = {
+			isa = PBXGroup;
+			children = (
+				920FF0D6279AAE4B000F6CE0 /* nightZone.vsh */,
+				920FF0D8279AAE5B000F6CE0 /* nightZone.fsh */,
+			);
+			path = nightZone;
+			sourceTree = "<group>";
+		};
 		92DC860C277AB683003529D6 = {
 			isa = PBXGroup;
 			children = (
@@ -204,12 +273,13 @@
 		92DC8651277AB779003529D6 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				92DC866D277AB809003529D6 /* filter */,
-				92DC8674277AB809003529D6 /* light */,
+				92DC8652277AB78F003529D6 /* 2D */,
+				92DC8664277AB7FD003529D6 /* 3D */,
 				92DC8679277AB80A003529D6 /* texture */,
 				92DC8684277AB80A003529D6 /* Texture3D */,
-				92DC8664277AB7FD003529D6 /* 3D */,
-				92DC8652277AB78F003529D6 /* 2D */,
+				92DC8674277AB809003529D6 /* light */,
+				92DC866D277AB809003529D6 /* filter */,
+				92DC889D277C4B60003529D6 /* effect */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -291,6 +361,20 @@
 				92DC8688277AB80A003529D6 /* 3dTextureShaderv.vsh */,
 			);
 			path = Texture3D;
+			sourceTree = "<group>";
+		};
+		92DC889D277C4B60003529D6 /* effect */ = {
+			isa = PBXGroup;
+			children = (
+				920FF0D5279AAD6D000F6CE0 /* nightZone */,
+				920FF067279A9E9A000F6CE0 /* white */,
+				920FEFFD279A984A000F6CE0 /* shake */,
+				920FEFF8279A9235000F6CE0 /* soulOut */,
+				920FEFF227983384000F6CE0 /* Scale */,
+				92DC889E277C4BAE003529D6 /* EffectVC.swift */,
+				92DC88A0277C4BC2003529D6 /* EffectView.swift */,
+			);
+			path = effect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,19 +485,29 @@
 				92DC8625277AB686003529D6 /* LaunchScreen.storyboard in Resources */,
 				92DC8622277AB686003529D6 /* Assets.xcassets in Resources */,
 				92DC869F277AB80A003529D6 /* 3dTextureShaderv.vsh in Resources */,
+				920FF0D7279AAE4B000F6CE0 /* nightZone.vsh in Resources */,
 				92DC8663277AB78F003529D6 /* shaderv.vsh in Resources */,
+				920FEFFB279A96B6000F6CE0 /* soulOut.vsh in Resources */,
 				92DC8662277AB78F003529D6 /* pointShader.vsh in Resources */,
+				920FEFF727983FFE000F6CE0 /* scale.fsh in Resources */,
 				92DC8690277AB80A003529D6 /* lightShaderv.vsh in Resources */,
 				92DC868C277AB80A003529D6 /* lutFiltervsh.vsh in Resources */,
 				92DC8692277AB80A003529D6 /* lightShaderf.fsh in Resources */,
 				92DC8697277AB80A003529D6 /* texturefsh.fsh in Resources */,
+				920FEFF627983FFB000F6CE0 /* scale.vsh in Resources */,
 				92DC868A277AB80A003529D6 /* lookup.png in Resources */,
 				92DC868B277AB80A003529D6 /* lutFilterfsh.fsh in Resources */,
+				920FEFFC279A96B9000F6CE0 /* soulOut.fsh in Resources */,
 				92DC8693277AB80A003529D6 /* texturevsh.vsh in Resources */,
+				920FF06E279AA0A6000F6CE0 /* white.vsh in Resources */,
+				920FF06F279AA0A8000F6CE0 /* white.fsh in Resources */,
 				92DC8669277AB7FD003529D6 /* 3dShaderf.fsh in Resources */,
+				920FEFFF279A985D000F6CE0 /* shake.vsh in Resources */,
 				92DC8661277AB78F003529D6 /* shaderf.fsh in Resources */,
+				920FF0D9279AB03C000F6CE0 /* nightZone.fsh in Resources */,
 				92DC869C277AB80A003529D6 /* 3dTextureShaderf.fsh in Resources */,
 				92DC868E277AB80A003529D6 /* yuantu.png in Resources */,
+				920FF066279A9CC6000F6CE0 /* shake.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,8 +541,10 @@
 				92DC8691277AB80A003529D6 /* LightView.swift in Sources */,
 				92DC8619277AB683003529D6 /* AppDelegate.swift in Sources */,
 				92DC865D277AB78F003529D6 /* Draw2DView.swift in Sources */,
+				92DC88A1277C4BC2003529D6 /* EffectView.swift in Sources */,
 				92DC869E277AB80A003529D6 /* Draw3DTextureView.swift in Sources */,
 				92DC8698277AB80A003529D6 /* TextureView.swift in Sources */,
+				92DC889F277C4BAE003529D6 /* EffectVC.swift in Sources */,
 				92DC866B277AB7FD003529D6 /* Draw3DView.swift in Sources */,
 				92DC8694277AB80A003529D6 /* TextureVC.swift in Sources */,
 				92DC868D277AB80A003529D6 /* LutFilterView.swift in Sources */,
