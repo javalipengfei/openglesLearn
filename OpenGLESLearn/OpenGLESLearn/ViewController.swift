@@ -33,6 +33,7 @@ class ViewController: UIViewController {
             PageModel.init(name: "来一个光照吧", page: "LightVC"),
             PageModel.init(name: "做一个lut滤镜吧", page: "LutFilterVC"),
             PageModel.init(name: "做一个特效吧", page: "EffectVC"),
+            PageModel.init(name: "获取视频信息", page: "VideoInfoVC"),
             
         ]
         self.tableView.reloadData()

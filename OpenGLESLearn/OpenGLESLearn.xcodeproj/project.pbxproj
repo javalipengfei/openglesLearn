@@ -17,6 +17,12 @@
 		920FF06F279AA0A8000F6CE0 /* white.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FF06D279A9EED000F6CE0 /* white.fsh */; };
 		920FF0D7279AAE4B000F6CE0 /* nightZone.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FF0D6279AAE4B000F6CE0 /* nightZone.vsh */; };
 		920FF0D9279AB03C000F6CE0 /* nightZone.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 920FF0D8279AAE5B000F6CE0 /* nightZone.fsh */; };
+		9218CA2828D17B2800920681 /* VideoInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9218CA2728D17B2800920681 /* VideoInfoVC.swift */; };
+		9218CA2F28D17CF400920681 /* PickVideoTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9218CA2E28D17CF400920681 /* PickVideoTool.swift */; };
+		9218CBF528D2D1BE00920681 /* UITool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9218CBF428D2D1BE00920681 /* UITool.swift */; };
+		9218CBF928D303FD00920681 /* 2.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 9218CBF728D303FA00920681 /* 2.MP4 */; };
+		9218CBFA28D303FD00920681 /* 1.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 9218CBF828D303FD00920681 /* 1.MOV */; };
+		9218CBFC28D31CB700920681 /* 3.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 9218CBFB28D31CB600920681 /* 3.MOV */; };
 		92DC8619277AB683003529D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC8618277AB683003529D6 /* AppDelegate.swift */; };
 		92DC861B277AB683003529D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC861A277AB683003529D6 /* SceneDelegate.swift */; };
 		92DC861D277AB683003529D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC861C277AB683003529D6 /* ViewController.swift */; };
@@ -88,6 +94,12 @@
 		920FF06D279A9EED000F6CE0 /* white.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = white.fsh; sourceTree = "<group>"; };
 		920FF0D6279AAE4B000F6CE0 /* nightZone.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = nightZone.vsh; sourceTree = "<group>"; };
 		920FF0D8279AAE5B000F6CE0 /* nightZone.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = nightZone.fsh; sourceTree = "<group>"; };
+		9218CA2728D17B2800920681 /* VideoInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInfoVC.swift; sourceTree = "<group>"; };
+		9218CA2E28D17CF400920681 /* PickVideoTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickVideoTool.swift; sourceTree = "<group>"; };
+		9218CBF428D2D1BE00920681 /* UITool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITool.swift; sourceTree = "<group>"; };
+		9218CBF728D303FA00920681 /* 2.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.MP4; sourceTree = "<group>"; };
+		9218CBF828D303FD00920681 /* 1.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 1.MOV; sourceTree = "<group>"; };
+		9218CBFB28D31CB600920681 /* 3.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 3.MOV; sourceTree = "<group>"; };
 		92DC8615277AB683003529D6 /* OpenGLESLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLESLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DC8618277AB683003529D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92DC861A277AB683003529D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -207,6 +219,66 @@
 			path = nightZone;
 			sourceTree = "<group>";
 		};
+		9218CA2628D17AF000920681 /* AVVC */ = {
+			isa = PBXGroup;
+			children = (
+				9218CA2D28D17CD500920681 /* AVUtils */,
+				9218CA2C28D17B8600920681 /* VideoEffect */,
+				9218CA2B28D17B6700920681 /* VideoReaderAndWriter */,
+				9218CA2A28D17B5600920681 /* VideoComposition */,
+				9218CA2928D17B3100920681 /* VideoInfoVC */,
+			);
+			path = AVVC;
+			sourceTree = "<group>";
+		};
+		9218CA2928D17B3100920681 /* VideoInfoVC */ = {
+			isa = PBXGroup;
+			children = (
+				9218CA2728D17B2800920681 /* VideoInfoVC.swift */,
+			);
+			path = VideoInfoVC;
+			sourceTree = "<group>";
+		};
+		9218CA2A28D17B5600920681 /* VideoComposition */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VideoComposition;
+			sourceTree = "<group>";
+		};
+		9218CA2B28D17B6700920681 /* VideoReaderAndWriter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VideoReaderAndWriter;
+			sourceTree = "<group>";
+		};
+		9218CA2C28D17B8600920681 /* VideoEffect */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VideoEffect;
+			sourceTree = "<group>";
+		};
+		9218CA2D28D17CD500920681 /* AVUtils */ = {
+			isa = PBXGroup;
+			children = (
+				9218CA2E28D17CF400920681 /* PickVideoTool.swift */,
+				9218CBF428D2D1BE00920681 /* UITool.swift */,
+			);
+			path = AVUtils;
+			sourceTree = "<group>";
+		};
+		9218CBF628D303ED00920681 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				9218CBF828D303FD00920681 /* 1.MOV */,
+				9218CBF728D303FA00920681 /* 2.MP4 */,
+				9218CBFB28D31CB600920681 /* 3.MOV */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		92DC860C277AB683003529D6 = {
 			isa = PBXGroup;
 			children = (
@@ -230,12 +302,14 @@
 		92DC8617277AB683003529D6 /* OpenGLESLearn */ = {
 			isa = PBXGroup;
 			children = (
-				92DC8651277AB779003529D6 /* VC */,
+				9218CA2628D17AF000920681 /* AVVC */,
+				92DC8651277AB779003529D6 /* OpenglesVC */,
 				92DC864A277AB72C003529D6 /* util */,
 				92DC8618277AB683003529D6 /* AppDelegate.swift */,
 				92DC861A277AB683003529D6 /* SceneDelegate.swift */,
 				92DC861C277AB683003529D6 /* ViewController.swift */,
 				92DC8621277AB686003529D6 /* Assets.xcassets */,
+				9218CBF628D303ED00920681 /* resource */,
 				92DC8623277AB686003529D6 /* LaunchScreen.storyboard */,
 				92DC8626277AB686003529D6 /* Info.plist */,
 			);
@@ -270,7 +344,7 @@
 			path = util;
 			sourceTree = "<group>";
 		};
-		92DC8651277AB779003529D6 /* VC */ = {
+		92DC8651277AB779003529D6 /* OpenglesVC */ = {
 			isa = PBXGroup;
 			children = (
 				92DC8652277AB78F003529D6 /* 2D */,
@@ -281,7 +355,7 @@
 				92DC866D277AB809003529D6 /* filter */,
 				92DC889D277C4B60003529D6 /* effect */,
 			);
-			path = VC;
+			path = OpenglesVC;
 			sourceTree = "<group>";
 		};
 		92DC8652277AB78F003529D6 /* 2D */ = {
@@ -489,6 +563,7 @@
 				92DC8663277AB78F003529D6 /* shaderv.vsh in Resources */,
 				920FEFFB279A96B6000F6CE0 /* soulOut.vsh in Resources */,
 				92DC8662277AB78F003529D6 /* pointShader.vsh in Resources */,
+				9218CBFA28D303FD00920681 /* 1.MOV in Resources */,
 				920FEFF727983FFE000F6CE0 /* scale.fsh in Resources */,
 				92DC8690277AB80A003529D6 /* lightShaderv.vsh in Resources */,
 				92DC868C277AB80A003529D6 /* lutFiltervsh.vsh in Resources */,
@@ -498,6 +573,7 @@
 				92DC868A277AB80A003529D6 /* lookup.png in Resources */,
 				92DC868B277AB80A003529D6 /* lutFilterfsh.fsh in Resources */,
 				920FEFFC279A96B9000F6CE0 /* soulOut.fsh in Resources */,
+				9218CBFC28D31CB700920681 /* 3.MOV in Resources */,
 				92DC8693277AB80A003529D6 /* texturevsh.vsh in Resources */,
 				920FF06E279AA0A6000F6CE0 /* white.vsh in Resources */,
 				920FF06F279AA0A8000F6CE0 /* white.fsh in Resources */,
@@ -507,6 +583,7 @@
 				920FF0D9279AB03C000F6CE0 /* nightZone.fsh in Resources */,
 				92DC869C277AB80A003529D6 /* 3dTextureShaderf.fsh in Resources */,
 				92DC868E277AB80A003529D6 /* yuantu.png in Resources */,
+				9218CBF928D303FD00920681 /* 2.MP4 in Resources */,
 				920FF066279A9CC6000F6CE0 /* shake.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,13 +611,16 @@
 			files = (
 				92DC864E277AB72C003529D6 /* GLESMath.c in Sources */,
 				92DC861D277AB683003529D6 /* ViewController.swift in Sources */,
+				9218CA2F28D17CF400920681 /* PickVideoTool.swift in Sources */,
 				92DC866A277AB7FD003529D6 /* Draw3DVC.swift in Sources */,
 				92DC8650277AB741003529D6 /* GLESTool.swift in Sources */,
 				92DC8699277AB80A003529D6 /* TextureDemoView.swift in Sources */,
 				92DC865C277AB78F003529D6 /* Draw2DCell.swift in Sources */,
 				92DC8691277AB80A003529D6 /* LightView.swift in Sources */,
 				92DC8619277AB683003529D6 /* AppDelegate.swift in Sources */,
+				9218CA2828D17B2800920681 /* VideoInfoVC.swift in Sources */,
 				92DC865D277AB78F003529D6 /* Draw2DView.swift in Sources */,
+				9218CBF528D2D1BE00920681 /* UITool.swift in Sources */,
 				92DC88A1277C4BC2003529D6 /* EffectView.swift in Sources */,
 				92DC869E277AB80A003529D6 /* Draw3DTextureView.swift in Sources */,
 				92DC8698277AB80A003529D6 /* TextureView.swift in Sources */,
@@ -726,6 +806,7 @@
 				DEVELOPMENT_TEAM = L2N5YPZR36;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenGLESLearn/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "获取相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -755,6 +836,7 @@
 				DEVELOPMENT_TEAM = L2N5YPZR36;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenGLESLearn/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "获取相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
