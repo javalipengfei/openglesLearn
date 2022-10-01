@@ -56,7 +56,7 @@ class VideoInfoVC: UIViewController {
     @objc public func getVideoInfo() {
         
         textView.text = ""
-        let keys = ["duration","metaData","tracks"]
+        let keys = ["duration","metadata","tracks"]
         asset.loadValuesAsynchronously(forKeys: keys) {
             var error: NSError?
             let status = self.asset.statusOfValue(forKey: "tracks", error: &error)

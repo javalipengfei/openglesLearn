@@ -29,6 +29,7 @@ class ViewController: UIViewController {
             PageModel.init(name: "画一个2D图形吧", page: "Draw2DVC"),
             PageModel.init(name: "画一个3D图形吧", page: "Draw3DVC"),
             PageModel.init(name: "加载一个纹理吧", page: "TextureVC"),
+            PageModel.init(name: "纹理混合", page: "TextureMixVC"),
             PageModel.init(name: "加载3D纹理贴图", page: "DrawTexture3DVC"),
             PageModel.init(name: "来一个光照吧", page: "LightVC"),
             PageModel.init(name: "做一个lut滤镜吧", page: "LutFilterVC"),

@@ -9,6 +9,20 @@ import UIKit
 import OpenGLES
 
 class GLESTool: NSObject {
+    
+    class func loadShader(vShaderName: String, fShaderName: String) -> GLuint {
+        let verPath = Bundle.main.path(forResource: vShaderName, ofType: "vsh")
+        let fragPath = Bundle.main.path(forResource: fShaderName, ofType: "fsh")
+        guard verPath != nil else {
+            assert(false, "vertex file not found")
+        }
+        guard fragPath != nil else {
+            assert(false, "fragement  file not found")
+        }
+       let program = loadShader(vShader: verPath!, fShader: fragPath!)
+       return program
+   }
+    
      class func loadShader(vShader: String, fShader: String) -> GLuint {
         var infoLog = [GLchar](repeating: 0, count: 512)
         var success: GLint = 0
